@@ -6,10 +6,10 @@ Major oceanic 16S/18S databases in qiime2 format and pre-trained classifier
 #### Specify which region was amplified; not necessary but can improve accuracy of classification  
 
 qiime feature-classifier extract-reads \
-  --i-sequences PR2_for_qiime2.qza \
+  --i-sequences Data/PR2/PR2_for_qiime2.qza \
   --p-f-primer TTGTACACACCGCCC \
   --p-r-primer CCTTCYGCAGGTTCACCTAC \
-  --o-reads PR2_for_qiime2_primer_trimmed.qza
+  --o-reads Data/PR2/PR2_for_qiime2_primer_trimmed.qza
   
 #### Train the classifier   
 
